@@ -31,6 +31,7 @@ THIRD_PARTY_APPS = [
 
 CREATED_APPS = [
     "core",
+    'apps.referal',
 ]
 INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + CREATED_APPS
 
