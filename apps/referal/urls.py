@@ -13,4 +13,5 @@ router.register("location", LocationView)
 router.register("provider", ProviderView)
 
 
-urlpatterns = [path("", include("rest_framework.urls")),path("api/", include(router.urls)),]
+urlpatterns = [path("", include("rest_framework.urls")),
+               path("api/", include(router.urls)), ]

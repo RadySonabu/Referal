@@ -27,6 +27,7 @@ THIRD_PARTY_APPS = [
     "rest_framework",
     "debug_toolbar",
     "corsheaders",
+    "django_filters",
 ]
 
 CREATED_APPS = [
