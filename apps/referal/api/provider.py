@@ -27,5 +27,4 @@ class ProviderView(viewsets.ModelViewSet):
         if self.action == 'update':
             return input_serializer
 
-        # I dont' know what you want for create/destroy/update.
         return output_serializer

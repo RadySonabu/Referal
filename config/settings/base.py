@@ -9,7 +9,8 @@ SECRET_KEY = "%k%)qk^317j^=r%u0(2=u+n$-!k1$6&35xrpz9co$i9q$wxtum"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "*", "referal-api.eba-qjfc7z3p.us-west-2.elasticbeanstalk.com"]
 
 
 # Application definition
