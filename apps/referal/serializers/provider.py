@@ -4,10 +4,10 @@ from rest_framework import viewsets
 
 
 class InputProviderSerializer(serializers.ModelSerializer):
-    category = serializers.PrimaryKeyRelatedField(
-        queryset=Category.objects.select_related().all(), source='category_id')
-    location = serializers.PrimaryKeyRelatedField(
-        queryset=Location.objects.select_related().all(), source='location_id')
+    category_id = serializers.PrimaryKeyRelatedField(
+        queryset=Category.objects.select_related().all(), )
+    location_id = serializers.PrimaryKeyRelatedField(
+        queryset=Location.objects.select_related().all(), )
 
     class Meta:
         model = Provider
